@@ -14,6 +14,27 @@ p {
     margin-top: .75em;
     margin-bottom: .75em;
 }
+
+pre {
+    margin: auto;
+    width: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+pre > :any-link{
+    color: balck;
+}
+
+*:any-link{
+    text-decoration: none;
+}
+
+*:any-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
 
 .noin {
